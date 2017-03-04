@@ -1,0 +1,17 @@
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/obj/Debug/Assembly-CSharp.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/UnityEngine.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/UnityEditor.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Mono.Cecil.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Unity.DataContract.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/tiffanylee/Desktop/School/TNS_2013-2017/2016f-2017s/Unity17/bear/bear/Temp/bin/Debug/Mono.Cecil.Mdb.dll
