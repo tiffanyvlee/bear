@@ -29,7 +29,7 @@ public class MakeNewGround : MonoBehaviour {
 	void Update() {
 		if (makeGround) {
 			int itemNum = Random.Range (0, groundPrefab.Length);
-			Vector3 spawnPoint = new Vector3(transform.position.x, Random.Range(5.0f, -15.0f), 0);
+			Vector3 spawnPoint = new Vector3(transform.position.x, Random.Range(1.0f, -5.0f), 0);
 			Instantiate (groundPrefab[itemNum], spawnPoint, Quaternion.identity);
 			//make some ground
 		}
