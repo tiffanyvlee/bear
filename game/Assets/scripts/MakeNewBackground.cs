@@ -7,7 +7,7 @@ public class MakeNewBackground : MonoBehaviour {
 	public GameObject[] backgroundPrefab;
 
 	void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag ("backround")) {
+		if (other.CompareTag ("background")) {
 			makeBackground = false;
 		}
 	}
@@ -28,7 +28,7 @@ public class MakeNewBackground : MonoBehaviour {
 	void Update() {
 		if (makeBackground) {
 			int itemNum = Random.Range (0, backgroundPrefab.Length);
-			Vector3 spawnPoint = new Vector3(transform.position.x, Random.Range(1.0f, -5.0f), 0);
+			Vector3 spawnPoint = new Vector3(transform.position.x, 0, 0);
 			Instantiate (backgroundPrefab[itemNum], spawnPoint, Quaternion.identity);
 			//make some ground
 		}

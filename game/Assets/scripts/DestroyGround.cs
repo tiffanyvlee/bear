@@ -7,5 +7,11 @@ public class DestroyGround : MonoBehaviour {
 		if (other.CompareTag ("Ground")) {
 			Destroy (other.gameObject);
 		}
+		if (other.CompareTag ("sad")) {
+			Destroy (other.gameObject);
+		}
+		if (other.CompareTag ("DeadHead")) {
+			Destroy (other.gameObject);
+		}
 }
 }
