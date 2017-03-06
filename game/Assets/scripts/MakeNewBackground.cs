@@ -27,8 +27,8 @@ public class MakeNewBackground : MonoBehaviour {
 
 	void Update() {
 		if (makeBackground) {
-			int itemNum = Random.Range (0, backgroundPrefab.Length);
-			Vector3 spawnPoint = new Vector3(transform.position.x, 0, 0);
+			int itemNum = Random.Range (0, 1);
+			Vector3 spawnPoint = new Vector3(transform.position.x, 5.5f, 10);
 			Instantiate (backgroundPrefab[itemNum], spawnPoint, Quaternion.identity);
 			//make some ground
 		}
