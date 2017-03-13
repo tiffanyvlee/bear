@@ -38,7 +38,7 @@ public class MakeNewSadHeads : MonoBehaviour {
 //			Instantiate (sadHead, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 
 			int itemNum = Random.Range (0, SadHeadPrefab.Length);
-			Vector3 spawnPoint = new Vector3(transform.position.x, Random.Range(5.0f, -5.0f), 0);
+			Vector3 spawnPoint = new Vector3(transform.position.x, Random.Range(4.5f, -4.5f), 0);
 			Instantiate (SadHeadPrefab[itemNum], spawnPoint, Quaternion.identity);
 //			//make some ground
 		}

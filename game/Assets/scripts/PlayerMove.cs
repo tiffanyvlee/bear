@@ -41,10 +41,10 @@ public class PlayerMove: MonoBehaviour {
 		}
 
 
-		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.3f, whatIsGround);
+		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, whatIsGround);
 
 		if (Input.GetButtonDown ("Jump") && grounded) {
-			rb.AddForce (new Vector2 (0, jumpForce));
+			rb.AddForce (new Vector2 (10, jumpForce));
 		}
 
 	}
