@@ -16,6 +16,8 @@ public class PlayerMove: MonoBehaviour {
 	public Transform groundCheck;
 	public LayerMask whatIsGround;
 
+	float timer = 5f;
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
@@ -43,9 +45,21 @@ public class PlayerMove: MonoBehaviour {
 
 		grounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, whatIsGround);
 
-		if (Input.GetButtonDown ("Jump") && grounded) {
+		if (Input.GetButtonDown ("Jump")) {
 			rb.AddForce (new Vector2 (10, jumpForce));
 		}
 
+
+		if (Input.GetKey(KeyCode.Return)) {
+			anim.SetTrigger("Trigger");
+		}
+
 	}
+
+
+
+
+
+
+
 }

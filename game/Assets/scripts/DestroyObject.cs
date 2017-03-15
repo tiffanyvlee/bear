@@ -9,6 +9,7 @@ public class DestroyObject : MonoBehaviour {
 	Quaternion originalRotation;
 
 
+
 	void OnTriggerEnter2D( Collider2D Collider) {
 		originalPosition = transform.position;
 		originalRotation = transform.rotation;
@@ -17,6 +18,9 @@ public class DestroyObject : MonoBehaviour {
 			Destroy (gameObject);
 			//Vector3 spawnPoint = new Vector3(transform.position.x, Random.Range(5f, -1.0f), 0);
 			Instantiate (newHead, originalPosition, originalRotation);
+			GameObject scoreH = GameObject.Find("ScoreHolder");
+			scoreH.GetComponent<scoreTracker>().addScore(1);
 		}
 	}
+		
 }
